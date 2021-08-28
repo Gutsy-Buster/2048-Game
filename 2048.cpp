@@ -155,7 +155,7 @@ class game {
         for(int i=0;i<4;i++){
             k=0;
             for(int j=0;j<4;j++){
-                if(bd[i][j] == v[k]) k++;
+                if(board[i][j] == v[k]) k++;
             }
             if(k == 4) return true;
         }
