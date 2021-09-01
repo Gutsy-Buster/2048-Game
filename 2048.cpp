@@ -40,9 +40,9 @@ class mapping {
     int dirR[4] = {-1, 0, 1, 0};
     int dirC[4] = {0, 1, 0, -1};
     int getMapping(char c) {
-        if(c == 'U' || c == 'u') return 0;
+        if(c == 'D' || c == 'd') return 0;
         else if(c == 'R' || c == 'r') return 1;
-        else if(c == 'D' || c == 'd') return 2;
+        else if(c == 'U' || c == 'u') return 2;
         else return 3;
     }
     int getdirR(int x) {
