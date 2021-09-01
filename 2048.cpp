@@ -120,7 +120,7 @@ class game {
         if(dir == 1) {
             startCol = 3;
             colStep = -1;
-        } else if(dir == 3) {
+        } else if(dir == 0) {
             startRow = 3;
             rowStep = -1;
         }
